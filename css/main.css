@@ -2191,6 +2191,50 @@ body.menu-is-open {
 .home-content__video .video-link:hover .video-icon {
   background-color: #e4b87b;
 }
+/* ------------------------------------------------------------------- 
+ * ## shopping buttons
+ * ------------------------------------------------------------------- */
+ .shopping-content__button {
+  margin-top: 12px;
+  position: relative;
+}
+.button_holder {
+  left: 90%;
+  bottom: 50%;
+  max-width: 100%;
+  display: flex;
+}
+.shopping-content__button .btn {
+  width: 190px;
+  height: 5px;
+  line-height: 6.8rem;
+  margin-right: 0;
+  position:absolute;
+  border-radius: 5px;
+  display: block;
+}
+
+.shopping-content__button .btn:first-child {
+  right: 50%;
+  left: auto;
+}
+
+.shopping-content__button .btn:last-child {
+  left: 50%;
+  right: auto;
+}
+
+.shopping-content__button .btn:not(.btn--primary) {
+  background-color: #13161b;
+  border-color: #13161b;
+  color: #FFFFFF;
+}
+
+.shopping-content__button .btn:not(.btn--primary):hover,
+.shopping-content__button .btn:not(.btn--primary):focus {
+  background-color: #080a0c;
+  border-color: #080a0c;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home buttons
@@ -2525,6 +2569,17 @@ html.no-csstransitions .home-content__main {
     line-height: 6.2rem !important;
   }
 
+  .shopping-content__button {
+    margin-top: 7.2rem;
+  }
+
+  .shopping-content__button .btn {
+    font-size: 11px;
+    width: 28rem;
+    height: 6.6rem !important;
+    line-height: 6.2rem !important;
+  }
+
   .home-content__scroll {
     right: 7rem;
   }
@@ -2548,10 +2603,13 @@ html.no-csstransitions .home-content__main {
     font-size: 3rem;
   }
 
-  .home-content__button .btn {
+  .shopping-content__button .btn {
     width: 24rem;
   }
 
+  .home-content__button .btn {
+    width: 24rem;
+  }
   .home-content__scroll {
     right: 6rem;
   }
@@ -2603,6 +2661,14 @@ html.no-csstransitions .home-content__main {
     top: -6px;
     font-size: 1.2rem;
     line-height: 6rem;
+  }
+
+  .shopping-content__button {
+    margin-top: 6.6rem;
+  }
+
+  .shopping-content__button .btn {
+    width: 22rem;
   }
 
   .home-content__button {
