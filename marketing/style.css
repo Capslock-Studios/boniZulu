@@ -132,7 +132,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	scroll-snap-align: start;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .clock-section h1{
@@ -412,6 +412,7 @@ body{
   	-webkit-overflow-scrolling: touch;
 	border: solid 1px #b8b8b8 ;
 	box-shadow: inset 3px 3px 3px #cbced1, inset -3px -3px 3px white;
+	background-color: none;
 }
 
   .rival-boxes img {
