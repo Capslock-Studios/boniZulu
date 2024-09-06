@@ -1,93 +1,744 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>SIYA PERCY | </title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-  <!-- Favicons -->
-  <link href="./favicon.png" rel="icon">
-  <link href="./apple-touch-icon.png" rel="apple-touch-icon">
-</head>
-<body>
 
-<div class="wrapper">
-    <div class="profile">
-        <div class="profile_img_info">         
-             <div class="img">
-                <img src="Siyabonga Ndaba.jpg" alt="profile_pic">     
-             </div>
-             <div class="info">
-                  <p class="name">Siya Percy</p>
-                  <p class="place"><span><i class="fas fa-map-marker-alt"></i></span>
-                    Cape Town
-                  </p>
-             </div>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>boniZulu</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div> <!-- end header-logo -->
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <h3>Navigate to</h3>
+
+            <div class="header-nav__content">
+                
+                <ul class="header-nav__list">
+                    <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Products</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p>We create outfits fit for kings & queens we create clothes comfortable and chic wear.
+
+                     
+                    
+                    <a href='#0'>Unisex fashionable wear</a> and bespoke pieces that are created to stand the test of time.</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav> <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="grid-overlay">
+            <div></div>
         </div>
-        <div class="profile_skills">
-            <div class="skills">
-                <p>Services</p>
-                <ul>
-                    <li><span class="icon"></span>
-                       <span class="title">PR Tech</span>
-                  </li>
-                    <li><span class="icon"></span>
-                       <span class="title">Software Dev</span></li>
-                    <li><span class="icon"></span>
-                       <span class="title">Project Planing</span></li>  
-                       <li><span class="icon"></span>
-                        <span class="title">Animation</span></li>  
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                boniZulu
+                </h1>
+
+                <h3>
+                it's in the name
+                </h3>
+
+                <div class="home-content__video">
+                    <a class="video-link" href="./Izintambo zo Moya - strings of the spirits.mp4" data-lity>
+                        <span class="video-icon"></span>
+                        <span class="video-text">Watch Video</span>
+                    </a>
+                </div>
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                        More About Us
+                    </a>
+                    <a href="#contact" class="smoothscroll btn btn--large">
+                        Let's Talk
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+ 
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header has-bottom-sep narrow target-section" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Products</h3>
+                <h1 class="display-1">
+                    We create outfits fit for kings & queens we create clothes comfortable and chic wear.
+                    ...
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row masonry-wrap">
+
+            <div class="masonry">
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/lady-shutterbug.jpg" 
+                                     srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BLACK GODDESS DRESS
+                            </h3>
+                           
+                            <p class="item-folio__cat">
+                                inspiration:
+                            </p>
+                            <div class="button_holder">
+                            <div class="home_content__button">
+                                <a href="#about" class="smoothscroll btn btn--primary btn--large" style="background-color: #3b3625; border-color:  #948a76;">
+                                    Add to Cart
+                                </a>
+                                <a href="#contact" class="smoothscroll btn btn--large" style="background-color: #dbc374; border-color:  #ffe298;">
+                                    Wish-list
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>inspiration:
+                                Use Cases:</p>
+                                    <div class="home_content__button">
+                                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                                            Add to Cart
+                                        </a>
+                                        <a href="#contact" class="smoothscroll btn btn--large">
+                                            Wish-list
+                                        </a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BLACK GODDESS DRESS
+                            </h3>
+                           
+                            <p class="item-folio__cat">
+                                inspiration:
+                            </p>
+                            <div class="button_holder">
+                            <div class="home_content__button">
+                                <a href="#about" class="smoothscroll btn btn--primary btn--large" style="background-color: #3b3625; border-color:  #948a76;">
+                                    Add to Cart
+                                </a>
+                                <a href="#contact" class="smoothscroll btn btn--large" style="background-color: #dbc374; border-color:  #ffe298;">
+                                    Wish-list
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>inspiration:
+                                Use Cases:</p>
+                                    <div class="home_content__button">
+                                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                                            Add to Cart
+                                        </a>
+                                        <a href="#contact" class="smoothscroll btn btn--large">
+                                            Wish-list
+                                        </a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BLACK GODDESS DRESS
+                            </h3>
+                           
+                            <p class="item-folio__cat">
+                                inspiration:
+                            </p>
+                            <div class="button_holder">
+                            <div class="home_content__button">
+                                <a href="#about" class="smoothscroll btn btn--primary btn--large" style="background-color: #3b3625; border-color:  #948a76;">
+                                    Add to Cart
+                                </a>
+                                <a href="#contact" class="smoothscroll btn btn--large" style="background-color: #dbc374; border-color:  #ffe298;">
+                                    Wish-list
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>inspiration:
+                                Use Cases:</p>
+                                    <div class="home_content__button">
+                                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                                            Add to Cart
+                                        </a>
+                                        <a href="#contact" class="smoothscroll btn btn--large">
+                                            Wish-list
+                                        </a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BLACK GODDESS DRESS
+                            </h3>
+                           
+                            <p class="item-folio__cat">
+                                inspiration:
+                            </p>
+                            <div class="button_holder">
+                            <div class="home_content__button">
+                                <a href="#about" class="smoothscroll btn btn--primary btn--large" style="background-color: #3b3625; border-color:  #948a76;">
+                                    Add to Cart
+                                </a>
+                                <a href="#contact" class="smoothscroll btn btn--large" style="background-color: #dbc374; border-color:  #ffe298;">
+                                    Wish-list
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>inspiration:
+                                Use Cases:</p>
+                                    <div class="home_content__button">
+                                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                                            Add to Cart
+                                        </a>
+                                        <a href="#contact" class="smoothscroll btn btn--large">
+                                            Wish-list
+                                        </a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BLACK GODDESS DRESS
+                            </h3>
+                           
+                            <p class="item-folio__cat">
+                                inspiration:
+                            </p>
+                            <div class="button_holder">
+                            <div class="home_content__button">
+                                <a href="#about" class="smoothscroll btn btn--primary btn--large" style="background-color: #3b3625; border-color:  #948a76;">
+                                    Add to Cart
+                                </a>
+                                <a href="#contact" class="smoothscroll btn btn--large" style="background-color: #dbc374; border-color:  #ffe298;">
+                                    Wish-list
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>inspiration:
+                                Use Cases:</p>
+                                    <div class="home_content__button">
+                                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                                            Add to Cart
+                                        </a>
+                                        <a href="#contact" class="smoothscroll btn btn--large">
+                                            Wish-list
+                                        </a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BLACK GODDESS DRESS
+                            </h3>
+                           
+                            <p class="item-folio__cat">
+                                inspiration:
+                            </p>
+                            <div class="button_holder">
+                            <div class="home_content__button">
+                                <a href="#about" class="smoothscroll btn btn--primary btn--large" style="background-color: #3b3625; border-color:  #948a76;">
+                                    Add to Cart
+                                </a>
+                                <a href="#contact" class="smoothscroll btn btn--large" style="background-color: #dbc374; border-color:  #ffe298;">
+                                    Wish-list
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>inspiration:
+                                Use Cases:</p>
+                                    <div class="home_content__button">
+                                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                                            Add to Cart
+                                        </a>
+                                        <a href="#contact" class="smoothscroll btn btn--large">
+                                            Wish-list
+                                        </a>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-works -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Who We Are</h3>
+                <h1 class="display-1">We are a fashion forward company that caters for corporate, social bespoke and
+                    everyday wear.</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                    The company has been around for several years with our Head Designer and founder Boniswa Mngomezulu who has gained experience from the likes of Quiteria & George with vast knowledge and expertise that has given her an edge to create beautiful, inspired pieces for everyday people who want to use fashion as an expression. 
+                    
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row bit-narrow">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Define</h4>
+                        <p>
+                            We are interested in fashion and creating gem pieces that are fashionably on trend. We experiment with new and innovative styles while creating new looks. 
+                            We disrupt status quos as we create outstanding fashion for fearless individuals who want to stand out.</p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Design</h4>
+                        <p>
+                            Our designs are curated and crafted to last, made with soft textures and materials that are breathable and elegant. 
+                            A combination of modern and edgy fashionable wear curated to stand the test of times.</p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Fashion</h4>
+                        <p>
+                            Our creations are fit for kings and queens, better yet for Gods and Goddesses. 
+                            We pride our selves with our fashion forward edgy wear with inspirations that’s over 200 years old history of quintessential boho fashion with a touch of street style for bold yet modest beings that are willing use fashion as an extended expression.</p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Return Policy</h4>
+                        <p>Return within 14 days.
+                            If returned stained, or missing any haberdashery(i.e, tags, lables, buttons) you will be hel liable for the fixing or cleaning of it
+                            If returned after being worn, you get in house credit, for the amount you paid(shipping at your cost).
+                            No return for under garments.
+                            If returned because of factory fault, we will sheep at our cost. 
+                            no returns on sale items.</p>
+                    </div>
+                </div>
+
+            </div> <!-- end process -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section darker">
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="row section-header text-center narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Clients</h3>
+                <h1 class="display-1">Who we have worked with</h1>
+            </div>
+        </div> <!-- end section-header -->
+<!-- 
+        <div class="row clients-wrap" data-aos="fade-up">
+            <div class="col-twelve">
+                <ul class="clients">
+                    <li><a href="#0">Uber</a></li>
+                    <li><a href="#0">Spotify</a></li>
+                    <li><a href="#0">Grab</a></li>
+                    <li><a href="#0">Dropbox</a></li>
+                    <li><a href="#0">IBM</a></li>
+                    <li><a href="#0">Microsoft</a></li>
+                    <li><a href="#0">Xiaomi</a></li>
+                    <li><a href="#0">Adidas</a></li>
+                    <li><a href="#0">Mozilla</a></li>
+                    <li><a href="#0">Apple</a></li>
+                    <li><a href="#0">Google</a></li>
+                    <li><a href="#0">Asus</a></li>
                 </ul>
             </div>
-            <div class="tags_wrap">
-              <p>Tech Stack</p>
-                <span class="tag">C++</span>
-              <span class="tag">C#</span>
-              <span class="tag">JavaScript</span>
-              <span class="tag">PHP</span>
+        </div>
+    -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- testimonies
+    ================================================== -->
+    <section class="s-testimonials">
+
+        <div class="testimonials__icon" data-aos="fade-up"></div>
+
+        <div class="row testimonials narrow">
+
+            <div class="col-full testimonials__slider" data-aos="fade-up">
+
+                <div class="testimonials__slide">
+                    <p>Thank you for making me feel absolutely beautiful in this set. The brand personifies my style of
+                        wear. Can't wait to get more stuff! Keep up the great job.
+                    </p>
+                    <div class="testimonials__author">
+                        Miss Rori
+                        <span>Bought off the rail</span>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Excepturi nam cupiditate. voluptas eius distinctio. </p>
+                    <div class="testimonials__author">
+                        Fikile 
+                        <span>Model</span>
+                    </div>
+                    <div class="home-content__video">
+                        <a class="video-link" href="./happy client.mp3" data-lity>
+                            <span class="video-icon"></span>
+                            <span class="video-text">Play Voice Note</span>
+                        </a>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Yoh, the dress you made me is giving...</p>
+                    <div class="testimonials__author">
+                        Koketso
+                        <span>18th Birthday Dress</span>
+                    </div>
+                    
+                    <div class="home-content__video">
+                        <a class="video-link" href="./client happy one.opus" data-lity>
+                            <span class="video-icon"></span>
+                            <span class="video-text">Play Voice Note</span>
+                        </a>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+            <div class="grid-overlay">
+                <div></div>
+            </div>
+
+        <div class="row section-header narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Keep In Touch</h3>
+                <h1 class="display-1">Feel free to contact us for any <br> enquiries about our brand</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="col-full">
+                <p class="contact-email">
+                    <a href="mailto:#0">info@bonizulu.co.za</a>
+                </p>
+                <p class="contact-address">
+                    21 Albrecht St <br>
+                Jeppestown, Johannesburg, 2043
+                </p>
+                <p class="contact-numbers">
+                    <a rel="noopener" target="_blank" href=”tel:(866)787-7030”>Click to call</a> &nbsp; <a class="contact-numbers" href="tel:+27615375404">061 537 5404</a>
+                </p>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>	
-<!--<div class="right">
- <div class="tags_wrap">
-              <p>Current Projects</p>
-                <span class="tag">tAe</span>
-              <span class="tag">TAE-TRX</span>
-              <span class="tag">Africa City</span>
-              <span class="tag">Kamover</span>
-              <span class="tag">Vuka Darkie</span>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full ss-copyright">
+                <span>© Copyright Sublime 2023</span> 
+                <span>Design by <a href="https://www.siyapercy.online/">siyapercy</a></span>
             </div>
-</div>
-<div class="left">
-<div class="profile_counts">
-  <div class="profile_counts_wrap">
-     <div class="item">
-       <div class="icon"><i class="fas fa-thumbs-up"></i></div>
-       <div class="title">320 Likes</div>
-    </div>
-  </div>
-  <div class="profile_counts_wrap">
-     <div class="item">
-       <div class="icon"><i class="fas fa-eye"></i></div>
-     <div class="title">2980 Views</div>
-    </div>
-  </div>
-  <div class="profile_counts_wrap">
-    <div class="item">
-      <div class="icon"><i class="fas fa-comment"></i></div>
-    <div class="title">117 Comments</div>
-   </div>
- </div>
-  <div class="profile_counts_wrap">
-     <div class="item">
-       <div class="icon"><i class="fas fa-comment"></i></div>
-     <div class="title">200+ Passed projects</div>
-    </div>
-  </div>
-</div>
-</div>
--->
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
